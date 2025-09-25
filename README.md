@@ -14,13 +14,15 @@ AWS EC2 Instance
     Run the below commands to install Java and Jenkins
     Install Java
       ```sudo apt update```
+      
       ```sudo apt install openjdk-17-jre````
 
     Verify Java is Installed
     
-      ```java --version```
+       ```java --version```
       
     Now, you can proceed with installing Jenkins
+
 
     ```bash 
     curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
@@ -30,6 +32,7 @@ AWS EC2 Instance
     /etc/apt/sources.list.d/jenkins.list > /dev/null
     sudo apt-get update
     sudo apt-get install jenkins
+
     
 **Note: ** By default, Jenkins will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 8080 in the 
 inbound traffic rules as show below.
