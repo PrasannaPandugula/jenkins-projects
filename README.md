@@ -13,9 +13,10 @@ AWS EC2 Instance
     Java (JDK)
     Run the below commands to install Java and Jenkins
     Install Java
+    
       ```sudo apt update```
       
-      ```sudo apt install openjdk-17-jre````
+      ```sudo apt install openjdk-17-jre```
 
     Verify Java is Installed
     
